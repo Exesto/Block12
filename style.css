@@ -1,0 +1,175 @@
+html {
+    background-color: blanchedalmond;
+    font-size: 15px;
+}
+
+nav {
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    box-shadow: 15px;
+}
+
+nav>div {
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 15px;
+    padding-bottom: 5px;
+}
+
+a {
+    margin: 15px;
+}
+
+main {
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    text-shadow: 10px;
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+main>img {
+    width: 200px;
+    height: 300px;
+    float: right;
+}
+
+main #quote {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    float: inline-end;
+    display: block;
+}
+
+section {
+    text-align: left;
+    font-family: sans-serif;
+    text-shadow: 100px;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+section>img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-image: fill;
+}
+
+.portfolio-section {
+    text-align: left;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+    row-gap: 10px;
+    
+}
+#recent-projects {
+    padding-right: 100px;
+
+}
+#previous-projects {
+    padding-right: 100px;
+}
+#future-projects {
+    padding-right: 100px;
+}
+
+main p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+#page-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: red;
+    font-weight: bold;
+    align-content: center;
+    border: 10px solid transparent;
+    text-shadow: 3px 3px 5px orange;
+}
+
+#header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guitar {
+    border: 5px solid red;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+#running {
+    border: 5px solid red;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+#paragliding {
+    border: 5px solid red;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: red;
+    font-weight: bold;
+    align-content: center;
+    border: 10px solid transparent;
+    text-shadow: 3px 3px 5px orange;
+}
+
+.contact-box {
+    display: grid;
+    justify-content: left;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+#message {
+    height: 250px;
+    width: 500px;
+}
